@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MobileAssignmentSuite" verbose="10">
+	<test name="SauceLabTest" preserve-order="true" thread-count="5"
+		verbose="2">
+
+		<classes>
+			<class name="apk.app.saucelab.testscripts.SL_TC01_LoginTest" />
+			<class name="apk.app.saucelab.testscripts.SL_TC02_AddAProduct" />
+			<class name="apk.app.saucelab.testscripts.SL_TC03_CheckoutWithAProduct" />
+		</classes>
+
+	</test>
+</suite>
